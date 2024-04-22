@@ -9,4 +9,9 @@ class SelectedItemsProvider with ChangeNotifier {
     _selecteditems.add(selvalue);
     notifyListeners();
   }
+
+  void deleteditemlist(int delvalue) {
+    _selecteditems.remove(delvalue);
+    notifyListeners();
+  }
 }

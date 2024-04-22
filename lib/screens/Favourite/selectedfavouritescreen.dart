@@ -29,7 +29,7 @@ class _FavouriteSelectedItemsScreenState
                   itemBuilder: (context, index) {
                     return ListTile(
                       onTap: () {
-                        value.additeminsellist(index);
+                        value.deleteditemlist(index);
                       },
                       title: Text("item$index"),
                       trailing: Icon(value.selecteditems.contains(index)

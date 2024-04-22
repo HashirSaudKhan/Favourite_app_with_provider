@@ -1,9 +1,6 @@
-import 'dart:js';
-
 import 'package:favourite_app_with_provider/providers/selecteditemsprovider.dart';
 import 'package:favourite_app_with_provider/screens/Favourite/selectedfavouritescreen.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'package:provider/provider.dart';
 
 class FavouriteScreen extends StatefulWidget {
